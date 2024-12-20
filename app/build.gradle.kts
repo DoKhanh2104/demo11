@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.demo_app"
+    namespace = "com.example.demoo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.demo_app"
-        minSdk = 24
+        applicationId = "com.example.demoo"
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -24,9 +24,6 @@ android {
                 "proguard-rules.pro"
             )
         }
-    }
-    buildFeatures{
-        viewBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
